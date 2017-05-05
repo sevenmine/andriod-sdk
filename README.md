@@ -52,7 +52,7 @@ Android-SDK 是用于服务器端点播上传的软件开发工具包，提供�
 
 以下是使用示例：
 
-//	从本地的持久化数据中获取该文件对应的上传上下文(根据这个上下文，服务端知道该从哪个offset开始上传)
+
 		String uploadContext = nosUpload.getUploadContext(mFile);
 		NOSUpload.UploadExecutor executor = nosUpload.putFileByHttp(
 										mFile,				//	文件
